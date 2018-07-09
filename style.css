@@ -1,0 +1,148 @@
+@font-face{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    src: url(../fonts/BacktoBlack.ttf);
+}
+.body{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #777777;
+}
+h5 {
+	font-size: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*Estilos del nav*/
+.navbar-fixed-top{
+	background-color: #fff;
+	/* background: linear-gradient(to right, rgb(53, 153, 148), #3EB4AE, #51C4BE); */
+}
+.navbar-default .navbar-nav>li>a {
+	color: #b5b5b5;
+	/* color: #717171; */
+    /* font-weight: bold; */
+}
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: #F0F0F0;
+	color: #51C4BE;
+	border-bottom-style: solid;
+    border-bottom-color: #51C4BE;
+	padding-bottom: 10px ;
+}
+.slider .col-xs-6{
+	margin-top: 60px;
+}
+/*Fin estilos nav*/
+
+/*Inicio estilos section infoProd*/
+.infoProd h5{
+	margin-top: 100px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 2em;
+}
+.infoProd p{
+	text-align: center;
+	margin-top: 20px;
+}
+.infoProd img{
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+/*Fin estilos section infoProd*/
+
+/*Estilos del gallery*/
+#galleryCont{
+	padding-bottom: 100px;
+}
+.gallery a {
+	position: relative;
+	display: block;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 100px;
+    height: 100%;
+	width: 100%;
+    padding-top:40px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    z-index: 20;
+}
+
+.overlay2{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 100px;
+    height: 100%;
+	width: 100%;
+    padding-top:100px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    z-index: 20;
+}
+
+.gallery a:hover .overlay ,
+.gallery a:hover .overlay2 {
+    opacity: 0.8;
+}
+
+.img-space{
+    margin:20px 0px;
+}
+/*Fin estilos gallery*/
+
+/*Inicio estilos section quienesSomos*/
+.quienesSomos{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background: linear-gradient(to right, #328D89, #3EB4AE, #6ED1B3);
+	color: #ffffff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-top: 100px;
+}
+.quienesSomos h5{
+	/* font-family: Back; */
+    font-size: 2em;
+}
+.quienesSomos p{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 17px;
+}
+.quienesSomos img{
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+/*Fin estilos section quienesSomos*/
+
+/*Inicio estilos section infoContacto*/
+.imgProveedor, .imgServicios, .imgCatalogo p{
+	font-size: 16px;
+}
+/*Fin estilos section infoContacto*/
+/*Inicio estilos section footer*/
+
+.footer{
+	font-size: 1em;
+	color: #777777;
+	background: #333333;
+}
+.footer p{
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+/*Fin estilos section footer*/
